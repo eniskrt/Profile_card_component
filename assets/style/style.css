@@ -1,0 +1,95 @@
+:root{
+    --primaryDarkCyan: hsl(185, 75%, 39%);
+    --primaryVeryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+    --primaryDarkGrayishBlue: hsl(227, 10%, 46%);
+    --neutraldarkGray:hsl(0, 0%, 59%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--primaryDarkCyan);
+    background-image: url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-position-x: -30% , 125%;
+    background-position-y: 1750%, -2250%;
+}
+.card{
+    max-width: 330px;
+}
+h1, h2{
+    color: var(--primaryVeryDarkDesaturatedBlue)!important;
+    font-weight:700;
+    font-size: 18px!important;
+}
+p{
+    color: var(--neutraldarkGray)!important;
+    font-weight: 400;
+    font-size: 14px;
+}
+.card-body{
+    position: relative;
+}
+/* Profile Photo */
+.card-body img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top:0;
+    left: 165px;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.card-headers{
+    margin-top: 3.5rem;
+    gap: 0.5rem;
+}
+.card-headers span{
+    font-size: 18px!important;
+}
+.card-text{
+    font-size: 15px;
+}
+.card-footer{
+    background-color: white!important;
+}
+.card-footer p{
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.card-footer{
+    border-top: 1px solid var(--neutraldarkGray)!important;
+}
+.card{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.card-img-top{
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+}
+.card-footer{
+    border-radius: 0 0 15px 15px!important;
+    -webkit-border-radius: 0 0 15px 15px!important;
+    -moz-border-radius: 0 0 15px 15px!important;
+    -ms-border-radius: 0 0 15px 15px!important;
+    -o-border-radius: 0 0 15px 15px!important;
+}
