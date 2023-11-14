@@ -15,9 +15,7 @@ body{
     background-color: var(--primaryDarkCyan);
     background-image: url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-position-x: -30% , 125%;
-    background-position-y: 1750%, -2250%;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 .card{
     max-width: 330px;
